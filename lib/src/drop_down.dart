@@ -128,7 +128,7 @@ class _MainBodyState extends State<MainBody> {
                             }
 
                             widget.dropDown.selectedItems?.call(selectedNameList);
-                            _onUnFocusKeyboardAndPop();
+//                             _onUnFocusKeyboardAndPop();
                           },
                           child: widget.dropDown.submitButtonChild ?? const Text('Done'),
                         ),
